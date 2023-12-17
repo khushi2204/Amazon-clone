@@ -123,8 +123,8 @@ span{
 }
 /** hero-section**/
 .hero-section{
-    background-image: url("hero.webp");
-    height:350px;
+    background-image: url("hero.jpg");
+    height:450px;
     background-size: cover;
     display:flex;
     justify-content: center;
