@@ -241,6 +241,72 @@ ul a{
 .panel-ops a{
     color:white;
 }
+@media only screen and (max-width: 700px) {
+   
+    .nav-search {
+        width: 50%;
+    }
 
-  
-  
+    .box {
+        width: 100%;
+    }
+    .nav-search:hover {
+        border: none;
+    }
+    .navbar a {
+        font-size: 0.5rem;
+    }
+    .navbar{
+        height: 250px;
+        background-color:#0f1111;
+        color:white;
+        display:flex;
+        flex-direction: column;
+        justify-content:flex-start;
+    }
+    .hero-message{
+        background-color: white;
+        color:black;
+        height:40px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:0.65rem;
+        width:80%;
+        margin-bottom:25px;
+    }
+    .hero-section{
+        background-image: url("hero.jpg");
+        height:200px;
+        background-size: cover;
+        display:flex;
+        justify-content: center;
+        align-items:flex-end;
+    }
+    .foot-panel3{
+        background-color: #222f3d;
+        color:white;
+        border:0.5px solid white;
+        height:30px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .foot-panel2{
+        background-color: #222f3d;
+        color:white;
+        height:300px;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    ul{
+        margin-top:20px;
+    }
+    ul a{
+        display:block;
+        font-size: 0.60rem;
+        margin-top:10px;
+        color:#dddddd;
+    }
+    
+}
